@@ -259,19 +259,11 @@ body {
 }
 
 .slogans {
-  display: flex;
-  align-items: center;
   list-style-type: none;
 }
 
 .our-sence {
   padding-top: 94px;
-}
-
-.our-sence-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .our-list__item {
@@ -784,14 +776,14 @@ footer {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
 .slogans-title {
-  width: 270px;
+  width: 100%;
   color: var(--second-color);
   font-family: inherit;
   font-weight: normal;
