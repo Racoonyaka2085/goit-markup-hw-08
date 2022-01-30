@@ -1,0 +1,42 @@
+.slogans {
+    @include align-list;
+    list-style-type: none;
+}
+
+.our-sence {
+    padding-top: 94px;
+    &-list {
+        @include align-list;
+        justify-content: center;
+    }
+}
+
+.our-list__item {
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+    &+& {
+        margin-left: 30px;
+    }
+}
+
+.slogans__item {
+    width: 270px;
+    list-style-type: none;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+    &-text {
+        width: 270px;
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+}
