@@ -1,14 +1,14 @@
 .slogans {
-    // @include align-list;
+    @include align-list;
     list-style-type: none;
 }
 
 .our-sence {
     padding-top: 94px;
-    // &-list {
-    //     @include align-list;
-    //     justify-content: center;
-    // }
+    &-list {
+        @include align-list;
+        justify-content: center;
+    }
 }
 
 .our-list__item {
