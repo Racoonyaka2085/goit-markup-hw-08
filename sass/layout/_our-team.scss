@@ -5,10 +5,19 @@
 
 .our-sence {
     padding-top: 94px;
-    // &-list {
-    //     // @include align-list;
-    //     justify-content: center;
-    // }
+    &-list {
+        display: block;
+        @media screen and ( min-width: 768px) {
+            display: flex;
+            justify-content: space-around;
+            align-content: first-start;
+            flex-wrap: wrap;
+        }
+        @media screen and (min-width: 1200px) {
+            align-content: space-between;
+            justify-content: space-between;
+        }
+    }
 }
 
 .our-list__item {
